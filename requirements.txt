@@ -1,0 +1,7 @@
+discord.py
+Pillow
+aiohttp
+opencv-python
+numpy
+pymunk
+psutil
