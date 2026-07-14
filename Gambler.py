@@ -19,6 +19,8 @@ import platform
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
+token = os.getenv("DISCORD_TOKEN")
+
 ADMIN_IDS = [978024161689608202, 962451361058930780]
 DM_ID = 978024161689608202
 PUBLIC_ACCESS = True
@@ -9729,4 +9731,4 @@ async def servers(ctx):
     await ctx.send(embed=embed)
 
 load_all_data()
-bot.run("MTUxNjY3MjUzMTI1MDI4NjYyMg.Goo4NP.CbnG2MloaYjD4X17OqHrH9iyhz4u0L0bl4CM9I")
+bot.run("DISCORD_TOKEN")
