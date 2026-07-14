@@ -1,2 +1,0 @@
-[phases.setup]
-nixpkgs = ["libxcb", "libxkbcommon", "xorg.libX11"]
