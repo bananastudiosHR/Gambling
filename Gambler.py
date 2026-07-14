@@ -3817,7 +3817,7 @@ async def daily(ctx):
 # Example: font_large = ImageFont.truetype("seguiemj.ttf", 80)
 
 # Ensure you load a font file that supports emojis, e.g., 'seguiemj.ttf'
-font_emoji = ImageFont.truetype("seguisym.ttf", 80)
+font_emoji = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 80)
 
 class ScratchCardView(discord.ui.View):
     def __init__(self, author_id, bet, matrix, vip_active):
