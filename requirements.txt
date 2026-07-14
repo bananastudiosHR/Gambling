@@ -5,3 +5,6 @@ opencv-python
 numpy
 pymunk
 psutil
+libxcb
+libxkbcommon
+xorg.libx11
